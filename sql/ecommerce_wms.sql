@@ -1,42 +1,4 @@
-/*Table structure for table `undo_log` */
 
-DROP TABLE IF EXISTS `undo_log`;
-
-CREATE TABLE `undo_log` (
-  `id` bigint(20) NOT NULL AUTO_INCREMENT,
-  `branch_id` bigint(20) NOT NULL,
-  `xid` varchar(100) NOT NULL,
-  `context` varchar(128) NOT NULL,
-  `rollback_info` longblob NOT NULL,
-  `log_status` int(11) NOT NULL,
-  `log_created` datetime NOT NULL,
-  `log_modified` datetime NOT NULL,
-  `ext` varchar(100) DEFAULT NULL,
-  PRIMARY KEY (`id`),
-  UNIQUE KEY `ux_undo_log` (`xid`,`branch_id`) USING BTREE
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
-
-/*Data for the table `undo_log` */
-
-/*Table structure for table `wms_purchase` */
-
-DROP TABLE IF EXISTS `wms_purchase`;
-
-CREATE TABLE `wms_purchase` (
-  `id` bigint(20) NOT NULL AUTO_INCREMENT,
-  `assignee_id` bigint(20) DEFAULT NULL,
-  `assignee_name` varchar(255) DEFAULT NULL,
-  `phone` char(13) DEFAULT NULL,
-  `priority` int(4) DEFAULT NULL,
-  `status` int(4) DEFAULT NULL,
-  `ware_id` bigint(20) DEFAULT NULL,
-  `amount` decimal(18,4) DEFAULT NULL,
-  `create_time` datetime DEFAULT NULL,
-  `update_time` datetime DEFAULT NULL,
-  PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COMMENT='采购信息';
-
-/*Data for the table `wms_purchase` */
 
 /*Table structure for table `wms_purchase_detail` */
 
