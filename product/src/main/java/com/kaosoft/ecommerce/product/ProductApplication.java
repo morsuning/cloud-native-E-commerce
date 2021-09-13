@@ -3,6 +3,9 @@ package com.kaosoft.ecommerce.product;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+/**
+ * @author kaoso
+ */
 @SpringBootApplication
 public class ProductApplication {
 
