@@ -1,0 +1,78 @@
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id: baidu_route
+          uri: https://www.baidu.com/
+          predicates:
+            - Query=url, baidu
+        - id: qq_route
+          uri: https://www.qq.com/
+          predicates:
+            - Query=url, qq
+        - id: admin_route
+          uri: lb://renren-fast
+          predicates:
+            - Path=/api/**
+          filters:
+            - RewritePath=/api/(?<segment>.*), /renren-fast/$\{segment}
+        - id: product_route
+          uri: lb://product
+          predicates:
+            - Path=/api/product/**
+          filters:
+            - RewritePath=/api/(?<segment>.*), /$\{segment}
+        - id: coupon_route
+          uri: lb://coupon
+          predicates:
+            - Path=/api/coupon/**
+          filters:
+            - RewritePath=/api/(?<segment>.*), /$\{segment}
+        - id: member_route
+          uri: lb://member
+          predicates:
+            - Path=/api/member/**
+          filters:
+            - RewritePath=/api/(?<segment>.*), /$\{segment}
+        - id: ware_route
+          uri: lb://ware
+          predicates:
+            - Path=/api/ware/**
+          filters:
+            - RewritePath=/api/(?<segment>.*), /$\{segment}
+      #  OSS签名的转发
+        - id: third_party_route
+          uri: lb://third-party
+          predicates:
+            - Path=/api/third/party/**
+          filters:
+            - RewritePath=/api/(?<segment>.*), /$\{segment}
+        - id: search_route
+          uri: lb://search
+          predicates:
+            - Host=search.ecommerce.com
+        - id: auth_route
+          uri: lb://auth-server
+          predicates:
+            - Host=auth.ecommerce.com
+        - id: seckill_route
+          uri: lb://seckill
+          predicates:
+            - Host=seckill.ecommerce.com
+        - id: cart_route
+          uri: lb://cart
+          predicates:
+            - Host=cart.ecommerce.com
+        - id: member_route
+          uri: lb://member
+          predicates:
+            - Host=member.ecommerce.com
+        - id: order_route
+          uri: lb://order
+          predicates:
+            - Host=order.ecommerce.com
+      # 任何以ecommerce.com结尾的域名转发到 product
+        - id: ecommerce_route
+          uri: lb://product
+          predicates:
+            - Host=**.ecommerce.com,ecommerce.com,item.ecommerce.com
