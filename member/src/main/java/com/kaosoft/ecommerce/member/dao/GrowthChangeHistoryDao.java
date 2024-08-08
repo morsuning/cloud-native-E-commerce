@@ -1,6 +1,6 @@
-package com.kaosoft.ecommerce.member.dao;
+package com.morsuning.ecommerce.member.dao;
 
-import com.kaosoft.ecommerce.member.entity.GrowthChangeHistoryEntity;
+import com.morsuning.ecommerce.member.entity.GrowthChangeHistoryEntity;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import org.apache.ibatis.annotations.Mapper;
 

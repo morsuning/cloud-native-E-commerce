@@ -1,0 +1,16 @@
+# pack-refs with: peeled fully-peeled sorted 
+a94a27f965c7a4087b710649af277b8b06a6d8cc refs/remotes/origin/dependabot/maven/renren-fast/cn.hutool-hutool-all-4.1.12
+b7604a6b0f3be44a406dfce11d304fc8bff33599 refs/remotes/origin/dependabot/maven/renren-fast/commons-fileupload-commons-fileupload-1.3.3
+95ede1ff5f45cc82ac299f4337f8ae48b56c92c2 refs/remotes/origin/dependabot/maven/renren-fast/commons-io-commons-io-2.7
+140a4e5008778a62dbc934df1c9a6fcacec627b9 refs/remotes/origin/dependabot/maven/renren-fast/org.apache.shiro-shiro-core-1.6.0
+8a9c856fdcfe4901496eed36027489956e676888 refs/remotes/origin/dependabot/maven/renren-fast/org.quartz-scheduler-quartz-2.3.2
+9a91b6c130ce5bd4003d1c1e2af706fe880a3aaa refs/remotes/origin/dependabot/maven/renren-fast/shiro.version-1.7.1
+728012f7f409a369d3215848b2872e713b5d9a20 refs/remotes/origin/dependabot/maven/renren-generator/commons-io-commons-io-2.7
+84d23bfd975d6fa34debf2c4526286b414c41994 refs/remotes/origin/dependabot/npm_and_yarn/renren-fast-vue/axios-0.21.1
+e5e704e997653f2c3864d5255f3d2faac24089ce refs/remotes/origin/dependabot/npm_and_yarn/renren-fast-vue/lodash-4.17.21
+852958a23caa2290348659f8c0e349f3f0ffd4a5 refs/remotes/origin/dependabot/npm_and_yarn/renren-fast-vue/node-notifier-8.0.1
+d0d4131e6daf6e8271d7f90a7be7b567c3608b91 refs/remotes/origin/dependabot/npm_and_yarn/vue-demo/vue-demo/webpack-bundle-analyzer-3.8.0
+735bbc9e042ee62bd39d0dc5003cdca3095f9d7a refs/remotes/origin/master
+8b55495daa5fa050ae2891adfa2fa9e338b939a3 refs/tags/mall-v1
+^1707a31e69eeee5fecc5c62f1db294cedb44c461
+735bbc9e042ee62bd39d0dc5003cdca3095f9d7a refs/tags/mall-v2

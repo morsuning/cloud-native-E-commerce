@@ -1,4 +1,4 @@
-package com.kaosoft.ecommerce.order;
+package com.morsuning.ecommerce.order;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

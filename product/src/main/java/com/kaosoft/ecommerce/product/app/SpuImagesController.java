@@ -1,4 +1,4 @@
-package com.kaosoft.ecommerce.product.app;
+package com.morsuning.ecommerce.product.app;
 
 import java.util.Arrays;
 import java.util.Map;
@@ -10,10 +10,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.kaosoft.ecommerce.product.entity.SpuImagesEntity;
-import com.kaosoft.ecommerce.product.service.SpuImagesService;
-import com.kaosoft.common.utils.PageUtils;
-import com.kaosoft.common.utils.R;
+import com.morsuning.ecommerce.product.entity.SpuImagesEntity;
+import com.morsuning.ecommerce.product.service.SpuImagesService;
+import com.morsuning.common.utils.PageUtils;
+import com.morsuning.common.utils.R;
 
 
 

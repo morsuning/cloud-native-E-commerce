@@ -1,8 +1,8 @@
-package com.kaosoft.ecommerce.coupon.service;
+package com.morsuning.ecommerce.coupon.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.kaosoft.common.utils.PageUtils;
-import com.kaosoft.ecommerce.coupon.entity.HomeSubjectSpuEntity;
+import com.morsuning.ecommerce.coupon.entity.HomeSubjectSpuEntity;
+import com.morsuning.common.utils.PageUtils;
 
 import java.util.Map;
 

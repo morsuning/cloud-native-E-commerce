@@ -1,4 +1,4 @@
-package com.kaosoft.ecommerce.order.service.impl;
+package com.morsuning.ecommerce.order.service.impl;
 
 import org.springframework.stereotype.Service;
 
@@ -7,12 +7,11 @@ import java.util.Map;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.kaosoft.common.utils.PageUtils;
-import com.kaosoft.common.utils.Query;
-
-import com.kaosoft.ecommerce.order.dao.OrderDao;
-import com.kaosoft.ecommerce.order.entity.OrderEntity;
-import com.kaosoft.ecommerce.order.service.OrderService;
+import com.morsuning.ecommerce.order.dao.OrderDao;
+import com.morsuning.ecommerce.order.entity.OrderEntity;
+import com.morsuning.ecommerce.order.service.OrderService;
+import com.morsuning.common.utils.PageUtils;
+import com.morsuning.common.utils.Query;
 
 
 @Service("orderService")

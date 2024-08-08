@@ -1,4 +1,4 @@
-package com.kaosoft.ecommerce.coupon.controller;
+package com.morsuning.ecommerce.coupon.controller;
 
 import java.util.Arrays;
 import java.util.Map;
@@ -10,10 +10,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.kaosoft.ecommerce.coupon.entity.SkuLadderEntity;
-import com.kaosoft.ecommerce.coupon.service.SkuLadderService;
-import com.kaosoft.common.utils.PageUtils;
-import com.kaosoft.common.utils.R;
+import com.morsuning.ecommerce.coupon.entity.SkuLadderEntity;
+import com.morsuning.ecommerce.coupon.service.SkuLadderService;
+import com.morsuning.common.utils.PageUtils;
+import com.morsuning.common.utils.R;
 
 
 /**

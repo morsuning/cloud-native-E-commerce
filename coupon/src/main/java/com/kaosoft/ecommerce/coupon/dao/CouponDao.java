@@ -1,6 +1,6 @@
-package com.kaosoft.ecommerce.coupon.dao;
+package com.morsuning.ecommerce.coupon.dao;
 
-import com.kaosoft.ecommerce.coupon.entity.CouponEntity;
+import com.morsuning.ecommerce.coupon.entity.CouponEntity;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import org.apache.ibatis.annotations.Mapper;
 

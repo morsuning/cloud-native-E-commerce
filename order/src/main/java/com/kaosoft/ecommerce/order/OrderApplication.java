@@ -1,4 +1,4 @@
-package com.kaosoft.ecommerce.order;
+package com.morsuning.ecommerce.order;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

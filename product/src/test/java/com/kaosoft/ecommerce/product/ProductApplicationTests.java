@@ -1,8 +1,8 @@
-package com.kaosoft.ecommerce.product;
+package com.morsuning.ecommerce.product;
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
-import com.kaosoft.ecommerce.product.entity.BrandEntity;
-import com.kaosoft.ecommerce.product.service.BrandService;
+import com.morsuning.ecommerce.product.entity.BrandEntity;
+import com.morsuning.ecommerce.product.service.BrandService;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -19,7 +19,7 @@ class ProductApplicationTests {
     void contextLoads() {
         BrandEntity brandEntity = new BrandEntity();
         brandEntity.setDescript("Test");
-        brandEntity.setName("kaoso");
+        brandEntity.setName("morsuning");
         brandService.save(brandEntity);
         System.out.println("已保存");
 

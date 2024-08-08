@@ -1,9 +1,10 @@
-package com.kaosoft.ecommerce.coupon.controller;
+package com.morsuning.ecommerce.coupon.controller;
 
-import com.kaosoft.common.utils.PageUtils;
-import com.kaosoft.common.utils.R;
-import com.kaosoft.ecommerce.coupon.entity.CouponEntity;
-import com.kaosoft.ecommerce.coupon.service.CouponService;
+import com.morsuning.ecommerce.coupon.entity.CouponEntity;
+import com.morsuning.ecommerce.coupon.service.CouponService;
+import com.morsuning.common.utils.PageUtils;
+import com.morsuning.common.utils.R;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

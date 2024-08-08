@@ -1,4 +1,4 @@
-package com.kaosoft.ecommerce.coupon.service.impl;
+package com.morsuning.ecommerce.coupon.service.impl;
 
 import org.springframework.stereotype.Service;
 
@@ -7,12 +7,11 @@ import java.util.Map;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.kaosoft.common.utils.PageUtils;
-import com.kaosoft.common.utils.Query;
-
-import com.kaosoft.ecommerce.coupon.dao.CouponSpuRelationDao;
-import com.kaosoft.ecommerce.coupon.entity.CouponSpuRelationEntity;
-import com.kaosoft.ecommerce.coupon.service.CouponSpuRelationService;
+import com.morsuning.ecommerce.coupon.dao.CouponSpuRelationDao;
+import com.morsuning.ecommerce.coupon.entity.CouponSpuRelationEntity;
+import com.morsuning.ecommerce.coupon.service.CouponSpuRelationService;
+import com.morsuning.common.utils.PageUtils;
+import com.morsuning.common.utils.Query;
 
 
 @Service("couponSpuRelationService")

@@ -1,15 +1,15 @@
-package com.kaosoft.ecommerce.order.service;
+package com.morsuning.ecommerce.order.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.kaosoft.common.utils.PageUtils;
-import com.kaosoft.ecommerce.order.entity.OrderItemEntity;
+import com.morsuning.ecommerce.order.entity.OrderItemEntity;
+import com.morsuning.common.utils.PageUtils;
 
 import java.util.Map;
 
 /**
  * 订单项信息
  *
- * @author kaoso
+ * @author morsuning
  * @email morsuning@gmail.com
  * @date 2021-09-13 20:29:06
  */

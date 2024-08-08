@@ -1,8 +1,8 @@
-package com.kaosoft.ecommerce.member.service;
+package com.morsuning.ecommerce.member.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.kaosoft.common.utils.PageUtils;
-import com.kaosoft.ecommerce.member.entity.MemberStatisticsInfoEntity;
+import com.morsuning.ecommerce.member.entity.MemberStatisticsInfoEntity;
+import com.morsuning.common.utils.PageUtils;
 
 import java.util.Map;
 

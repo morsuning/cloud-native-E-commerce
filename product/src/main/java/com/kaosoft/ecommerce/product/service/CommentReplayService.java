@@ -1,8 +1,8 @@
-package com.kaosoft.ecommerce.product.service;
+package com.morsuning.ecommerce.product.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.kaosoft.common.utils.PageUtils;
-import com.kaosoft.ecommerce.product.entity.CommentReplayEntity;
+import com.morsuning.ecommerce.product.entity.CommentReplayEntity;
+import com.morsuning.common.utils.PageUtils;
 
 import java.util.Map;
 

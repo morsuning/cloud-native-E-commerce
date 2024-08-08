@@ -1,4 +1,4 @@
-package com.kaosoft.ecommerce.ware.entity;
+package com.morsuning.ecommerce.ware.entity;
 
 import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableName;
@@ -11,7 +11,7 @@ import lombok.Data;
 /**
  * 库存工作单
  *
- * @author kaoso
+ * @author morsuning
  * @email morsuning@gmail.com
  * @date 2021-09-13 20:41:39
  */

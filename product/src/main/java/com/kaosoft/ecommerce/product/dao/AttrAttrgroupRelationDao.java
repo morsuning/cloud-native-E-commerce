@@ -1,6 +1,6 @@
-package com.kaosoft.ecommerce.product.dao;
+package com.morsuning.ecommerce.product.dao;
 
-import com.kaosoft.ecommerce.product.entity.AttrAttrgroupRelationEntity;
+import com.morsuning.ecommerce.product.entity.AttrAttrgroupRelationEntity;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import org.apache.ibatis.annotations.Mapper;
 

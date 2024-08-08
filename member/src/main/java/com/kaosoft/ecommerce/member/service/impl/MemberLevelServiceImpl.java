@@ -1,4 +1,4 @@
-package com.kaosoft.ecommerce.member.service.impl;
+package com.morsuning.ecommerce.member.service.impl;
 
 import org.springframework.stereotype.Service;
 
@@ -7,12 +7,11 @@ import java.util.Map;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.kaosoft.common.utils.PageUtils;
-import com.kaosoft.common.utils.Query;
-
-import com.kaosoft.ecommerce.member.dao.MemberLevelDao;
-import com.kaosoft.ecommerce.member.entity.MemberLevelEntity;
-import com.kaosoft.ecommerce.member.service.MemberLevelService;
+import com.morsuning.ecommerce.member.dao.MemberLevelDao;
+import com.morsuning.ecommerce.member.entity.MemberLevelEntity;
+import com.morsuning.ecommerce.member.service.MemberLevelService;
+import com.morsuning.common.utils.PageUtils;
+import com.morsuning.common.utils.Query;
 
 
 @Service("memberLevelService")

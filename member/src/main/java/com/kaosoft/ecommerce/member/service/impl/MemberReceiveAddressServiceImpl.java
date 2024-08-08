@@ -1,4 +1,4 @@
-package com.kaosoft.ecommerce.member.service.impl;
+package com.morsuning.ecommerce.member.service.impl;
 
 import org.springframework.stereotype.Service;
 
@@ -7,12 +7,11 @@ import java.util.Map;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.kaosoft.common.utils.PageUtils;
-import com.kaosoft.common.utils.Query;
-
-import com.kaosoft.ecommerce.member.dao.MemberReceiveAddressDao;
-import com.kaosoft.ecommerce.member.entity.MemberReceiveAddressEntity;
-import com.kaosoft.ecommerce.member.service.MemberReceiveAddressService;
+import com.morsuning.ecommerce.member.dao.MemberReceiveAddressDao;
+import com.morsuning.ecommerce.member.entity.MemberReceiveAddressEntity;
+import com.morsuning.ecommerce.member.service.MemberReceiveAddressService;
+import com.morsuning.common.utils.PageUtils;
+import com.morsuning.common.utils.Query;
 
 
 @Service("memberReceiveAddressService")

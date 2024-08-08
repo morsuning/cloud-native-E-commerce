@@ -1,9 +1,10 @@
-package com.kaosoft.ecommerce.ware.controller;
+package com.morsuning.ecommerce.ware.controller;
 
-import com.kaosoft.common.utils.PageUtils;
-import com.kaosoft.common.utils.R;
-import com.kaosoft.ecommerce.ware.entity.WareInfoEntity;
-import com.kaosoft.ecommerce.ware.service.WareInfoService;
+import com.morsuning.ecommerce.ware.entity.WareInfoEntity;
+import com.morsuning.ecommerce.ware.service.WareInfoService;
+import com.morsuning.common.utils.PageUtils;
+import com.morsuning.common.utils.R;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -14,7 +15,7 @@ import java.util.Map;
 /**
  * 仓库信息
  *
- * @author kaoso
+ * @author morsuning
  * @email morsuning@gmail.com
  * @date 2021-09-13 20:41:39
  */

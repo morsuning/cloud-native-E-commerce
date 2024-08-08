@@ -1,4 +1,4 @@
-package com.kaosoft.ecommerce.member.controller;
+package com.morsuning.ecommerce.member.controller;
 
 import java.util.Arrays;
 import java.util.Map;
@@ -10,10 +10,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.kaosoft.ecommerce.member.entity.MemberCollectSpuEntity;
-import com.kaosoft.ecommerce.member.service.MemberCollectSpuService;
-import com.kaosoft.common.utils.PageUtils;
-import com.kaosoft.common.utils.R;
+import com.morsuning.ecommerce.member.entity.MemberCollectSpuEntity;
+import com.morsuning.ecommerce.member.service.MemberCollectSpuService;
+import com.morsuning.common.utils.PageUtils;
+import com.morsuning.common.utils.R;
 
 
 /**

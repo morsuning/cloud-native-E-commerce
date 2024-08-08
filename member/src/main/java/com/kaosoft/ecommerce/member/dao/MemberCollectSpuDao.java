@@ -1,6 +1,6 @@
-package com.kaosoft.ecommerce.member.dao;
+package com.morsuning.ecommerce.member.dao;
 
-import com.kaosoft.ecommerce.member.entity.MemberCollectSpuEntity;
+import com.morsuning.ecommerce.member.entity.MemberCollectSpuEntity;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import org.apache.ibatis.annotations.Mapper;
 

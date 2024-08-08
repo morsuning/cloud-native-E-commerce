@@ -1,4 +1,4 @@
-package com.kaosoft.ecommerce.ware.service.impl;
+package com.morsuning.ecommerce.ware.service.impl;
 
 import org.springframework.stereotype.Service;
 
@@ -7,12 +7,11 @@ import java.util.Map;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.kaosoft.common.utils.PageUtils;
-import com.kaosoft.common.utils.Query;
-
-import com.kaosoft.ecommerce.ware.dao.WareSkuDao;
-import com.kaosoft.ecommerce.ware.entity.WareSkuEntity;
-import com.kaosoft.ecommerce.ware.service.WareSkuService;
+import com.morsuning.ecommerce.ware.dao.WareSkuDao;
+import com.morsuning.ecommerce.ware.entity.WareSkuEntity;
+import com.morsuning.ecommerce.ware.service.WareSkuService;
+import com.morsuning.common.utils.PageUtils;
+import com.morsuning.common.utils.Query;
 
 
 @Service("wareSkuService")

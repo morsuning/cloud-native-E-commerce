@@ -1,4 +1,4 @@
-package com.kaosoft.ecommerce.member;
+package com.morsuning.ecommerce.member;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

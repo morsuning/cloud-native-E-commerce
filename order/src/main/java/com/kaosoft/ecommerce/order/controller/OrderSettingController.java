@@ -1,4 +1,4 @@
-package com.kaosoft.ecommerce.order.controller;
+package com.morsuning.ecommerce.order.controller;
 
 import java.util.Arrays;
 import java.util.Map;
@@ -10,16 +10,16 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.kaosoft.ecommerce.order.entity.OrderSettingEntity;
-import com.kaosoft.ecommerce.order.service.OrderSettingService;
-import com.kaosoft.common.utils.PageUtils;
-import com.kaosoft.common.utils.R;
+import com.morsuning.ecommerce.order.entity.OrderSettingEntity;
+import com.morsuning.ecommerce.order.service.OrderSettingService;
+import com.morsuning.common.utils.PageUtils;
+import com.morsuning.common.utils.R;
 
 
 /**
  * 订单配置信息
  *
- * @author kaoso
+ * @author morsuning
  * @email morsuning@gmail.com
  * @date 2021-09-13 20:29:06
  */

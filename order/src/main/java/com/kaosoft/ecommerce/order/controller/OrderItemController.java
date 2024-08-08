@@ -1,9 +1,10 @@
-package com.kaosoft.ecommerce.order.controller;
+package com.morsuning.ecommerce.order.controller;
 
-import com.kaosoft.common.utils.PageUtils;
-import com.kaosoft.common.utils.R;
-import com.kaosoft.ecommerce.order.entity.OrderItemEntity;
-import com.kaosoft.ecommerce.order.service.OrderItemService;
+import com.morsuning.ecommerce.order.entity.OrderItemEntity;
+import com.morsuning.ecommerce.order.service.OrderItemService;
+import com.morsuning.common.utils.PageUtils;
+import com.morsuning.common.utils.R;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -14,7 +15,7 @@ import java.util.Map;
 /**
  * 订单项信息
  *
- * @author kaoso
+ * @author morsuning
  * @email morsuning@gmail.com
  * @date 2021-09-13 20:29:06
  */

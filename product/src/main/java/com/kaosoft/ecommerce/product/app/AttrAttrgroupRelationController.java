@@ -1,9 +1,10 @@
-package com.kaosoft.ecommerce.product.app;
+package com.morsuning.ecommerce.product.app;
 
-import com.kaosoft.common.utils.PageUtils;
-import com.kaosoft.common.utils.R;
-import com.kaosoft.ecommerce.product.entity.AttrAttrgroupRelationEntity;
-import com.kaosoft.ecommerce.product.service.AttrAttrgroupRelationService;
+import com.morsuning.ecommerce.product.entity.AttrAttrgroupRelationEntity;
+import com.morsuning.ecommerce.product.service.AttrAttrgroupRelationService;
+import com.morsuning.common.utils.PageUtils;
+import com.morsuning.common.utils.R;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

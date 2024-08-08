@@ -1,4 +1,4 @@
-package com.kaosoft.ecommerce.coupon.entity;
+package com.morsuning.ecommerce.coupon.entity;
 
 import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableName;

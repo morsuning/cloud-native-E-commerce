@@ -1,4 +1,4 @@
-package com.kaosoft.ecommerce.ware;
+package com.morsuning.ecommerce.ware;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

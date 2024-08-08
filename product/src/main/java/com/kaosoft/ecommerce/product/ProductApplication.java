@@ -1,4 +1,4 @@
-package com.kaosoft.ecommerce.product;
+package com.morsuning.ecommerce.product;
 
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
@@ -11,9 +11,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * mapperScan
  * 映射文件位置
  *
- * @author kaoso
+ * @author morsuning
  */
-@MapperScan("com.kaosoft.ecommerce.product.dao")
+@MapperScan("com.morsuning.ecommerce.product.dao")
 @SpringBootApplication
 public class ProductApplication {
 
